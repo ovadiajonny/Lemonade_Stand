@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060CBE511A8FFF0C0041E84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CBE501A8FFF0C0041E84C /* AppDelegate.swift */; };
+		060CBE531A8FFF0C0041E84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CBE521A8FFF0C0041E84C /* ViewController.swift */; };
+		060CBE561A8FFF0C0041E84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE541A8FFF0C0041E84C /* Main.storyboard */; };
+		060CBE581A8FFF0C0041E84C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE571A8FFF0C0041E84C /* Images.xcassets */; };
+		060CBE5B1A8FFF0C0041E84C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE591A8FFF0C0041E84C /* LaunchScreen.xib */; };
+		060CBE671A8FFF0C0041E84C /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CBE661A8FFF0C0041E84C /* Lemonade_StandTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		060CBE611A8FFF0C0041E84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060CBE431A8FFF0C0041E84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060CBE4A1A8FFF0C0041E84C;
+			remoteInfo = "Lemonade Stand";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060CBE4B1A8FFF0C0041E84C /* Lemonade Stand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade Stand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060CBE4F1A8FFF0C0041E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060CBE501A8FFF0C0041E84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		060CBE521A8FFF0C0041E84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		060CBE551A8FFF0C0041E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		060CBE571A8FFF0C0041E84C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		060CBE5A1A8FFF0C0041E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		060CBE601A8FFF0C0041E84C /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060CBE651A8FFF0C0041E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060CBE661A8FFF0C0041E84C /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060CBE481A8FFF0C0041E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060CBE5D1A8FFF0C0041E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060CBE421A8FFF0C0041E84C = {
+			isa = PBXGroup;
+			children = (
+				060CBE4D1A8FFF0C0041E84C /* Lemonade Stand */,
+				060CBE631A8FFF0C0041E84C /* Lemonade StandTests */,
+				060CBE4C1A8FFF0C0041E84C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		060CBE4C1A8FFF0C0041E84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060CBE4B1A8FFF0C0041E84C /* Lemonade Stand.app */,
+				060CBE601A8FFF0C0041E84C /* Lemonade StandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060CBE4D1A8FFF0C0041E84C /* Lemonade Stand */ = {
+			isa = PBXGroup;
+			children = (
+				060CBE501A8FFF0C0041E84C /* AppDelegate.swift */,
+				060CBE521A8FFF0C0041E84C /* ViewController.swift */,
+				060CBE541A8FFF0C0041E84C /* Main.storyboard */,
+				060CBE571A8FFF0C0041E84C /* Images.xcassets */,
+				060CBE591A8FFF0C0041E84C /* LaunchScreen.xib */,
+				060CBE4E1A8FFF0C0041E84C /* Supporting Files */,
+			);
+			path = "Lemonade Stand";
+			sourceTree = "<group>";
+		};
+		060CBE4E1A8FFF0C0041E84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				060CBE4F1A8FFF0C0041E84C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		060CBE631A8FFF0C0041E84C /* Lemonade StandTests */ = {
+			isa = PBXGroup;
+			children = (
+				060CBE661A8FFF0C0041E84C /* Lemonade_StandTests.swift */,
+				060CBE641A8FFF0C0041E84C /* Supporting Files */,
+			);
+			path = "Lemonade StandTests";
+			sourceTree = "<group>";
+		};
+		060CBE641A8FFF0C0041E84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				060CBE651A8FFF0C0041E84C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060CBE4A1A8FFF0C0041E84C /* Lemonade Stand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060CBE6A1A8FFF0D0041E84C /* Build configuration list for PBXNativeTarget "Lemonade Stand" */;
+			buildPhases = (
+				060CBE471A8FFF0C0041E84C /* Sources */,
+				060CBE481A8FFF0C0041E84C /* Frameworks */,
+				060CBE491A8FFF0C0041E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lemonade Stand";
+			productName = "Lemonade Stand";
+			productReference = 060CBE4B1A8FFF0C0041E84C /* Lemonade Stand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		060CBE5F1A8FFF0C0041E84C /* Lemonade StandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060CBE6D1A8FFF0D0041E84C /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */;
+			buildPhases = (
+				060CBE5C1A8FFF0C0041E84C /* Sources */,
+				060CBE5D1A8FFF0C0041E84C /* Frameworks */,
+				060CBE5E1A8FFF0C0041E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060CBE621A8FFF0C0041E84C /* PBXTargetDependency */,
+			);
+			name = "Lemonade StandTests";
+			productName = "Lemonade StandTests";
+			productReference = 060CBE601A8FFF0C0041E84C /* Lemonade StandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060CBE431A8FFF0C0041E84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonathan Ovadia";
+				TargetAttributes = {
+					060CBE4A1A8FFF0C0041E84C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					060CBE5F1A8FFF0C0041E84C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 060CBE4A1A8FFF0C0041E84C;
+					};
+				};
+			};
+			buildConfigurationList = 060CBE461A8FFF0C0041E84C /* Build configuration list for PBXProject "Lemonade Stand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060CBE421A8FFF0C0041E84C;
+			productRefGroup = 060CBE4C1A8FFF0C0041E84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060CBE4A1A8FFF0C0041E84C /* Lemonade Stand */,
+				060CBE5F1A8FFF0C0041E84C /* Lemonade StandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060CBE491A8FFF0C0041E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060CBE561A8FFF0C0041E84C /* Main.storyboard in Resources */,
+				060CBE5B1A8FFF0C0041E84C /* LaunchScreen.xib in Resources */,
+				060CBE581A8FFF0C0041E84C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060CBE5E1A8FFF0C0041E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060CBE471A8FFF0C0041E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060CBE531A8FFF0C0041E84C /* ViewController.swift in Sources */,
+				060CBE511A8FFF0C0041E84C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060CBE5C1A8FFF0C0041E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060CBE671A8FFF0C0041E84C /* Lemonade_StandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060CBE621A8FFF0C0041E84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060CBE4A1A8FFF0C0041E84C /* Lemonade Stand */;
+			targetProxy = 060CBE611A8FFF0C0041E84C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		060CBE541A8FFF0C0041E84C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060CBE551A8FFF0C0041E84C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		060CBE591A8FFF0C0041E84C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060CBE5A1A8FFF0C0041E84C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		060CBE681A8FFF0D0041E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		060CBE691A8FFF0D0041E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060CBE6B1A8FFF0D0041E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lemonade Stand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		060CBE6C1A8FFF0D0041E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lemonade Stand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		060CBE6E1A8FFF0D0041E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lemonade StandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade Stand.app/Lemonade Stand";
+			};
+			name = Debug;
+		};
+		060CBE6F1A8FFF0D0041E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lemonade StandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade Stand.app/Lemonade Stand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060CBE461A8FFF0C0041E84C /* Build configuration list for PBXProject "Lemonade Stand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060CBE681A8FFF0D0041E84C /* Debug */,
+				060CBE691A8FFF0D0041E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060CBE6A1A8FFF0D0041E84C /* Build configuration list for PBXNativeTarget "Lemonade Stand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060CBE6B1A8FFF0D0041E84C /* Debug */,
+				060CBE6C1A8FFF0D0041E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		060CBE6D1A8FFF0D0041E84C /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060CBE6E1A8FFF0D0041E84C /* Debug */,
+				060CBE6F1A8FFF0D0041E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060CBE431A8FFF0C0041E84C /* Project object */;
+}
