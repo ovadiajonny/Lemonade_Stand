@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // add main view
+        var mainView = LemonadeStandView()
+        self.view.addSubview(mainView.setUpView(self.view.bounds.origin.x, y: self.view.bounds.origin.y, width: self.view.frame.width, height: self.view.frame.height))
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
