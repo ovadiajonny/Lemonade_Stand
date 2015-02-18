@@ -18,8 +18,27 @@ var lemons: Int = 1
 var iceCubes: Int = 1
 
 
-class LemonadeStandView: UIViewController{
 
+
+class LemonadeStandView: UIViewController{
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func btnAction(sender: UIButton!){
+        println("test")
+        
+        
+    }
+    
+
+var addLemonsButton:UIButton! = UIButton()
     
     func setUpView(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat) -> UIView{
        
@@ -95,27 +114,27 @@ class LemonadeStandView: UIViewController{
         label3.sizeToFit()
         label3.center = CGPoint(x: view.bounds.origin.x + label3.bounds.width/2 + kMargin, y: view.frame.height * kRows * 6.0)
         view.addSubview(label3)
+    
         
         
-        
-        var addLemonsButton = UIButton.buttonWithType(UIButtonType.System) as UIButton
+        addLemonsButton = UIButton.buttonWithType(UIButtonType.System) as UIButton
         addLemonsButton.setTitle(" + ", forState: UIControlState.Normal)
         addLemonsButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
         addLemonsButton.titleLabel?.font  =  UIFont(name: "Superclarendon-Bold", size: 17.0)
         addLemonsButton.sizeToFit()
         addLemonsButton.center = CGPoint(x: label3.center.x + label3.frame.width/2 + 20.0, y: label3.frame.origin.y + 13.0)
-        addLemonsButton.addTarget(self, action: "addLemonsButtonAction:", forControlEvents: UIControlEvents.TouchUpInside)
-        addLemonsButton.tag = 22
+        var btnSender: Selector = "btnAction"
+        addLemonsButton.addTarget(self, action: btnSender, forControlEvents: UIControlEvents.TouchUpInside)
+        addLemonsButton.addTarget(self, action: "btnAction:", forControlEvents: UIControlEvents.TouchUpInside)
         view.addSubview(addLemonsButton)
-        
 
     }
-        func addLemonsButtonAction(sender: UIButton!){
-            println("add button pressed")
-    }
-
+    
 
 }
+
+
+
 
 
 

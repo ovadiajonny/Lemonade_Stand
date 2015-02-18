@@ -13,9 +13,8 @@
 		060CBE581A8FFF0C0041E84C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE571A8FFF0C0041E84C /* Images.xcassets */; };
 		060CBE5B1A8FFF0C0041E84C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE591A8FFF0C0041E84C /* LaunchScreen.xib */; };
 		060CBE671A8FFF0C0041E84C /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CBE661A8FFF0C0041E84C /* Lemonade_StandTests.swift */; };
-		060CBE711A9001F00041E84C /* LemonadeStandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CBE701A9001F00041E84C /* LemonadeStandView.swift */; };
-		060CBE731A90A0A70041E84C /* blackboard-backgrounds-wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE721A90A0A70041E84C /* blackboard-backgrounds-wallpapers.jpg */; };
-		060CBE751A90A2950041E84C /* chalkboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 060CBE741A90A2950041E84C /* chalkboard.jpg */; };
+		06BE9FED1A9291C10057D76F /* Suplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE9FEC1A9291C10057D76F /* Suplies.swift */; };
+		06BE9FEF1A9294350057D76F /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BE9FEE1A9294350057D76F /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,8 @@
 		060CBE601A8FFF0C0041E84C /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		060CBE651A8FFF0C0041E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		060CBE661A8FFF0C0041E84C /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
-		060CBE701A9001F00041E84C /* LemonadeStandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonadeStandView.swift; sourceTree = "<group>"; };
-		060CBE721A90A0A70041E84C /* blackboard-backgrounds-wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blackboard-backgrounds-wallpapers.jpg"; sourceTree = "<group>"; };
-		060CBE741A90A2950041E84C /* chalkboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chalkboard.jpg; sourceTree = "<group>"; };
+		06BE9FEC1A9291C10057D76F /* Suplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Suplies.swift; path = ../Suplies.swift; sourceTree = "<group>"; };
+		06BE9FEE1A9294350057D76F /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Price.swift; path = ../Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +81,10 @@
 		060CBE4D1A8FFF0C0041E84C /* Lemonade Stand */ = {
 			isa = PBXGroup;
 			children = (
+				06BE9FEE1A9294350057D76F /* Price.swift */,
+				06BE9FEC1A9291C10057D76F /* Suplies.swift */,
 				060CBE501A8FFF0C0041E84C /* AppDelegate.swift */,
 				060CBE521A8FFF0C0041E84C /* ViewController.swift */,
-				060CBE701A9001F00041E84C /* LemonadeStandView.swift */,
 				060CBE541A8FFF0C0041E84C /* Main.storyboard */,
 				060CBE571A8FFF0C0041E84C /* Images.xcassets */,
 				060CBE591A8FFF0C0041E84C /* LaunchScreen.xib */,
@@ -97,8 +96,6 @@
 		060CBE4E1A8FFF0C0041E84C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				060CBE741A90A2950041E84C /* chalkboard.jpg */,
-				060CBE721A90A0A70041E84C /* blackboard-backgrounds-wallpapers.jpg */,
 				060CBE4F1A8FFF0C0041E84C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -201,9 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060CBE751A90A2950041E84C /* chalkboard.jpg in Resources */,
 				060CBE561A8FFF0C0041E84C /* Main.storyboard in Resources */,
-				060CBE731A90A0A70041E84C /* blackboard-backgrounds-wallpapers.jpg in Resources */,
 				060CBE5B1A8FFF0C0041E84C /* LaunchScreen.xib in Resources */,
 				060CBE581A8FFF0C0041E84C /* Images.xcassets in Resources */,
 			);
@@ -223,8 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BE9FED1A9291C10057D76F /* Suplies.swift in Sources */,
+				06BE9FEF1A9294350057D76F /* Price.swift in Sources */,
 				060CBE531A8FFF0C0041E84C /* ViewController.swift in Sources */,
-				060CBE711A9001F00041E84C /* LemonadeStandView.swift in Sources */,
 				060CBE511A8FFF0C0041E84C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

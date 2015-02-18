@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Lemonade Stand/ViewController.swift"
-            timestampString = "445684619.346926"
+            timestampString = "445969377.756771"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -41,7 +41,7 @@
                   symbolName = "Lemonade_Stand.AppDelegate.__deallocating_deinit"
                   moduleName = "Lemonade Stand"
                   urlString = "file:///Users/JonathanOvadia/Documents/XCode_Projects/Lemonade_Stand/Lemonade%20Stand/AppDelegate.swift"
-                  timestampString = "445692111.761945"
+                  timestampString = "445795839.384623"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -55,7 +55,7 @@
                   symbolName = "@objc Lemonade_Stand.AppDelegate.__ivar_destroyer"
                   moduleName = "Lemonade Stand"
                   urlString = "file:///Users/JonathanOvadia/Documents/XCode_Projects/Lemonade_Stand/Lemonade%20Stand/AppDelegate.swift"
-                  timestampString = "445692111.762188"
+                  timestampString = "445795839.384837"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -69,7 +69,7 @@
                   symbolName = "top_level_code"
                   moduleName = "Lemonade Stand"
                   urlString = "file:///Users/JonathanOvadia/Documents/XCode_Projects/Lemonade_Stand/Lemonade%20Stand/AppDelegate.swift"
-                  timestampString = "445692111.762343"
+                  timestampString = "445795839.384977"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -77,6 +77,50 @@
                   offsetFromSymbolStart = "4">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lemonade Stand/AppDelegate.swift"
+            timestampString = "445795846.216803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lemonade Stand/AppDelegate.swift"
+            timestampString = "445795847.656383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lemonade Stand/AppDelegate.swift"
+            timestampString = "445795849.144589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
